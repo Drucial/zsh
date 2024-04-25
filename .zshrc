@@ -13,7 +13,7 @@ export PATH="$HOME/scripts:$PATH:/Applications/Postgres.app/Contents/Versions/la
 # Custom Alias Section
 # --------------------
 alias editzsh='nvim ~/.config/zsh/.zshrc'
-alias editnvim='nvim ~/.config/nvim/init.vim'
+alias editnvim='nvim ~/.config/nvim'
 alias ip='curl ipinfo.io/ip'
 alias neo='nvim'
 alias gpsup='git push --set-upstream origin $(git_branch_name)'
