@@ -1,0 +1,5 @@
+# Ignore zsh history file
+.zsh_history
+
+# Ignore specific .zcompdump file, replace special characters with wildcard or exact match
+".zcompdump-Drew’s MacBook Pro (2)-5.9"
