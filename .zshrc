@@ -12,20 +12,14 @@ export PATH="$HOME/scripts:$PATH:/Applications/Postgres.app/Contents/Versions/la
 # --------------------
 # Custom Alias Section
 # --------------------
-alias editzsh='nvim ~/.config/zsh/.zshrc'
-alias editnvim='nvim ~/.config/nvim'
-alias ip='curl ipinfo.io/ip'
-alias neo='nvim'
-alias gpsup='git push --set-upstream origin $(git_branch_name)'
-alias Dev='cd /Users/drucial/Dev'
-alias be='bundle exec'
-alias editgitconfig='nvim ~/.gitconfig'
+source ~/.config/zsh/aliases.zsh
 
 # --------------------
 # Theme and Plugins
 # --------------------
 ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git zsh-autosuggestions ruby zsh-syntax-highlighting web-search)
+eval "$(fzf --zsh)"
 
 # --------------------
 # Oh My Zsh Framework
