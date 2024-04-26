@@ -14,6 +14,7 @@ alias editzsh='nvim ~/.config/zsh/.zshrc'
 alias editnvim='nvim ~/.config/nvim'
 alias editalias='nvim ~/.config/zsh/aliases.zsh'
 alias edithyper='nvim ~/.hyper.js'
+alias editwarp='nvim ~/.warp/themes/Celestial.yaml'
 
 alias ip='curl ipinfo.io/ip'
 alias neo='nvim'
