@@ -3,9 +3,9 @@
 #-------------------
 
 alias Dev='cd /Users/drucial/Dev'
-alias Scripts='nvim ~/Scripts'
-alias PaintServer='cd ~/Dev/craftwork-rails/ bin/dev'
-alias Craftwork='cd ~/Dev/craftwork/ bin/web'
+alias Scripts='cd ~/Scripts'
+alias PaintServer='cd ~/Users/drucial/Dev/craftwork-rails/'
+alias Craftwork='cd ~/Users/drucial/Dev/craftwork/'
 
 #-------------------
 # Files
