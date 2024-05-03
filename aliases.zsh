@@ -4,8 +4,8 @@
 
 alias Dev='cd /Users/drucial/Dev'
 alias Scripts='cd ~/Scripts'
-alias PaintServer='cd ~/Users/drucial/Dev/craftwork-rails/'
-alias Craftwork='cd ~/Users/drucial/Dev/craftwork/'
+alias PaintServer='cd /Users/drucial/Dev/craftwork-rails/'
+alias Craftwork='cd /Users/drucial/Dev/craftwork/'
 
 #-------------------
 # Files
@@ -25,6 +25,20 @@ alias editgitconfig='nvim ~/.gitconfig'
 
 alias ip='curl ipinfo.io/ip'
 alias neo='nvim'
-alias gpsup='git push --set-upstream origin $(git_branch_name)'
 alias be='bundle exec'
 alias f='fzf'
+alias ff='nvim $(fzf)'
+
+#-------------------
+# Git
+#-------------------
+
+alias gst='git status'
+alias gco='git checkout'
+alias gc='commit_tracked_with_message' # see git.zsh commit_tracked_with_message()
+alias gb='git branch'
+alias ga='git add'
+alias gaa='git add --all'
+alias gp='git pull'
+alias gpsup='git push --set-upstream origin $(git_branch_name)'
+alias ghpr='open_github_pr' # see git.zsh open_github_pr()
