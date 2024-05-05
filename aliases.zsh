@@ -33,6 +33,7 @@ alias ff='nvim $(fzf)'
 # Git
 #-------------------
 
+alias lg='lazygit'
 alias gst='git status'
 alias gco='git checkout'
 alias gc='commit_tracked_with_message' # see git.zsh commit_tracked_with_message()
