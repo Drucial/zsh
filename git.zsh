@@ -1,9 +1,3 @@
-# Function to create a git commit with a message
-commit_tracked_with_message() {
-  git add .
-  git commit -m "$1"
-}
-
 # Function to open a GitHub pull request
 open_github_pr() {
   local branch=$(git_branch_name)

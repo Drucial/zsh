@@ -1,0 +1,1026 @@
+clear
+ls
+nvim
+clear
+cd /Users/drucial/Dev/craftwork-rails/
+nvim
+nvim ~/.config/nvim
+\:Mason
+nvim
+nvim ~/.config/nvim
+nvim
+nvim ~/.config/nvim
+nvim
+dinvim
+nvim ~/.config/nvim
+nvim $(fzf)
+clear
+bin/dev
+nvim
+nvim ~/.config/nvim
+nvim $(fzf)
+nvim ~/.config/nvim
+nvim
+nvim ~/.config/nvim
+nvim $(fzf)
+nvim $(fzf) commenttextbox
+rails g stimulus global
+nvim $(fzf)
+git status
+git add -A
+git commit -m 'global stimulus controller, updated actions and pinned comments section on project summeary'
+git status
+git push --set-upstream origin $(git_current_branch)
+nvim $(fzf)
+clear
+git status
+git add _A
+git add -A
+git commit -m 'smaller pin icon on comments and better spacing in pinned_comments section'
+git push --set-upstream origin $(git_current_branch)
+clear
+nvim $(fzf)
+git status
+git diff app/views/projects/_pinned_comments.html.erb
+git add -A
+git commit -m 'pin icon in no results component for _pinned_comments'
+git status
+clear
+nvim $(fzf)
+git status
+git add -A
+git commit -m 'remove navigate to comment for now'
+git push --set-upstream origin $(git_current_branch)
+clear
+nvim $(fzf)
+git checkout -- .
+clear
+cd /app
+cd app
+cd views
+cd projects
+mv _pinned_comments.html.erb ~/Dev/craftwork-rails/app/views/comments/
+nvim
+cd ../../
+cd ../
+nvim
+clear
+git status
+git add -A
+git commit -m 'move pinned_comments to /comments and update locals to be pinned_comments instead of project'
+git push --set-upstream origin $(git_current_branch)
+nvim $(fzf)
+nvif
+clear
+git status
+git add -A
+git commit -m 'better handling of turbo-stream updates for pinning and unpinning comments'
+clear
+git push --set-upstream origin $(git_current_branch)
+clear
+nvim $(fzf)
+git status
+git add -A
+git commit -m 'unique id for comments'
+git push --set-upstream origin $(git_current_branch)
+clear
+git merge main -m 'merge main'
+nvim $(fzf)
+git add _A
+git add -A
+git commit -m 'fixed broken parttial for pinned comments'
+git push --set-upstream origin $(git_current_branch)
+git pull
+git push --set-upstream origin $(git_current_branch)
+git pull
+git status
+git push --set-upstream origin $(git_current_branch)
+clear
+git checkout main
+git pull
+clear
+git checkout -b feature/cra-3136-correct-project-type-icon-on-calendar
+git checkout feature/cra-3136-correct-project-type-icon-on-calendar
+git merge main -m 'merge main'
+git status
+git push --set-upstream origin $(git_current_branch)
+clear
+nvim $(fzf)
+rails db:migrate
+clear
+git status
+clear
+git checkout main
+nvim $(fzf)
+git pull
+git status
+clear
+git status
+git pull
+git checkout -b feature/cra-2918-reject-estimates-esp-after-approval
+git branch -d feature/cra-2918-reject-estimates-esp-after-approval
+git push origin --delete feature/cra-2918-reject-estimates-esp-after-approval
+git checkout -b feature/cra-2918-reject-estimates-esp-after-approval
+clear
+nvim
+clear
+rails g component UI/EditableStatusBadge model update_path
+nvim $(fzf)
+nvim
+nvim $(fzf)
+nvim ~/.config/nvim
+nvim
+nvim ~/.config/nvim
+clear
+git status
+cd ~/.config/nvim
+git status
+git add -A
+git commit-m 'none-ls'
+git commit -m 'none-ls'
+git push --set-upstream origin $(git_current_branch)
+clear
+nvim
+nvim $(fzf)
+fr
+fzf
+nvim $(fzf)
+nvim
+clear
+nvim $(fzf)
+git status
+git add -A
+git commit -m 'add editable status badges andestime helper method for defgining available statuses'
+git push --set-upstream origin $(git_current_branch)
+nvim $(fzf)
+nvim ~/.config/nvim
+nvim $(fzf)
+cd ~/.config/nvim
+ls
+git status
+git add -A
+git commit -m 'temporirly disable erb linting and formatting'
+git push --set-upstream origin $(git_current_branch)
+clear
+ls
+mv lua/drucial/plugins/lsp/lspconfig.lua lua/drucial/plugins
+nvim
+git add -A
+git status
+git commit -m 'remove lsp dir'
+git push --set-upstream origin $(git_current_branch)
+cd /Users/drucial/Dev/craftwork-rails/
+nvim
+clear
+nvim
+nvom
+nvim
+cd /Users/drucial/Dev/craftwork-rails/
+nvim $(fzf)
+clear
+cd ~/.config/nvim
+nvim
+cd /Users/drucial/Dev/craftwork-rails/
+nvim $(fzf)
+clear
+nvim $(fzf)
+clear
+git status
+git add _A
+git add -A
+git commit -m 'start on copilot'
+clear
+git status
+git push --set-upstream origin $(git_current_branch)
+clear
+nvim
+\:Copilot auth
+nvim
+cd /Users/drucial/Dev/craftwork-rails/
+nvim $(fzf)
+clear
+nvim
+ls
+nvim lua/drucial/lua
+open
+\:wqa
+clear
+nvim
+nvim $(fzf)
+nvim
+git status
+nvim
+nviom
+nvim
+ls
+cd lua
+ls
+cd drucial/core
+ls
+nvim options.lua
+nvim
+nvim options.lua
+nvim
+nvim options.lua
+nvim
+nvim 
+nvim options.lua
+nvim
+cd ../../
+cd ../
+nvim
+nvim lua/drucail/core/options.lua
+nvim lua/drucial/core/options.lua
+nvim
+clear
+git diff
+clear
+git add -A
+git commit -m 'copilot and some style upodates'
+git push --set-upstream origin $(git_current_branch)
+clear
+Paintserver
+cd /Users/drucial/Dev/craftwork-rails/
+bin/dev
+rm ./.overmind.sock
+bin/dev
+nvim
+nvim $(fzf)
+rails routes -g estimate
+nvim $(fzf)
+cd app/views/estimates
+touch update.turbo_stream.erb
+\:q
+clear
+nvim $(fzf)
+nvim
+clear
+git status
+git add -A
+git status
+git dif
+git diff
+clear
+git commit -m 'update estimate status from status badge working'
+clear
+nvim $(fzf)
+"active and inactive and disabled states for status badge dropdown options"
+git status
+git add _A
+git add -A
+git commit -m 'active, inactive and disabled status classes for editable status badges'
+git push --set-upstream origin $(git_current_branch)
+open https://github.com/craftworkco/craftwork-rails/pull/new/feature/cra-3085-all-event-details-on-hover-in-calendar
+clear
+nvim $(fzf)
+git add _A
+git add -A
+git commit -m 'remove unused variable in status badge componentn'
+git push --set-upstream origin $(git_current_branch)
+cleqar
+clear
+git merge main -m 'merge main'
+git pull
+clear
+estimatehelper
+nvim $(fzf)
+clear
+rails test test/components/ui/editable_status_badge_component_test.rb
+nvim
+nvim ~/.config/nvim
+nvim $(fzf)
+rails test test/components/ui/editable_status_badge_component_test.rb
+nvim
+rails test test/components/ui/editable_status_badge_component_test.rb
+nvim $(fzf)
+rails test test/components/ui/editable_status_badge_component_test.rb
+git status
+git diff
+git add -A
+git commit-m 'updated component test and component classes'
+git push --set-upstream origin $(git_current_branch)
+rails test test/components/ui/editable_status_badge_component_system_test.rb
+rails routes g project
+nvim $(fzf)
+rails routes g estimate
+clear
+rails routes g estimate
+rails test test/components/ui/editable_status_badge_component_system_test.rb
+\:wqa
+clear
+git status
+git add -A
+git commit-m 'updated component test andsytem test'
+git commit -m 'updated component test andsytem test'
+git push --set-upstream origin $(git_current_branch)
+clear
+nvim $(fzf)
+git add -A
+git commit -m 'lint updates to editables status badge system test'
+git push --set-upstream origin $(git_current_branch)
+nvim $(fzf)
+git add -A
+git commit -m 'more linting updates'
+git push --set-upstream origin $(git_current_branch)
+bin/dev
+rm ./.overmind.sock
+bin/dev
+nvim $(fzf)
+nvim
+nvim $(fzf)
+rails test test/components/ui/editable_status_badge_component_system_test.rb
+rails test test/components/ui/editable_status_badge_component_test.rb
+\:qa
+git status
+git add -A
+git comit -m 'update satatus badge model declaration'
+git commit -m 'update satatus badge model declaration'
+git push --set-upstream origin $(git_current_branch)
+git merge main -m 'merge main'
+git pull
+git merge main -m 'merge main'
+clear
+nvim $(fzf)
+clear
+git status
+git add -A
+git commit -m 'hide "send for approval" unless estimate is ready for customer approval"\
+\
+\
+'
+git push --set-upstream origin $(git_current_branch)
+git pull
+git push --set-upstream origin $(git_current_branch)
+clear
+cd ~
+clear
+cd .config/nvim
+git status
+nvim
+mv lazy/drucial/config/ lazy/config/
+mv lazy/drucial/config lazy/
+nvim
+nvim $(fzf)
+nvim
+nvim $(fzf)
+nvim
+nvim init.lua
+nvim
+nvim init.lua
+nvim
+nvim 
+nvim init
+nvim init.lua
+nvim
+cd lua
+nvim lazy.lua
+cd ../
+nvim init.lua
+nvim
+cd lua
+ls
+cd plugins
+nvim lualine.lua
+nvim alpha.lua
+nvim
+cd ../../
+clear
+nvim
+git status
+git add -A
+git commit -m 'restrcuture files'
+git push --set-upstream origin $(git_current_branch)
+clear
+nvim
+git status
+git checkout -- .
+nvim
+git checkout -- .
+git reset --hard HEAD~1
+nvim
+roll back commit and add back floats
+git status
+nvim
+git status
+git add -A
+git commit -m 'roll back file restructure'
+git push --set-upstream origin $(git_current_branch)
+git push --force-with-lease --set-upstream origin '$(git_current_branch)'
+git push origin main --force
+git push --set-upstream origin $(git_current_branch)
+clear
+nvim
+nvim -v
+nvim
+git status
+git add -A
+git commit -m 'format on save with null-ls'
+git push --set-upstream origin $(git_current_branch)
+nvim
+clear
+nvim
+cd ../
+cd zsh
+nvim alia
+nvim aliases.zsh
+touch git.zsh
+nvim git.zsh
+nvim aliases.zsh
+source ~/.config/zsh/git.zsh
+source ~/.config/zsh/aliases.zsh
+source ~/.config/zsh/.zshrc
+gs
+git status
+git add --all
+git status
+git commit --verbose 'git aliases'
+git commit --verbose
+nvim git.zsh
+source ~/.config/zsh/git.zsh
+nvim git.zsh
+nvim aliases.zsh
+source ~/.config/zsh/git.zsh
+source ~/.config/zsh/aliases.zsh
+source ~/.config/zsh/.zshrc
+git status
+git add --all
+git status
+git commit --verbose aliases for git commands
+git commit --verbose 'aliases for git commands'
+nvim git.zsh
+type gc
+grep -R "alias gc" ~/
+clear
+git commit --message
+git commit --message 'add git aliases'
+nvim aliases.zsh
+ghpr
+source ~/.config/zsh/aliases.zsh
+source ~/.config/zsh/.zshrc
+ghpr
+nvim aliases.zsh
+git push
+git commit --verbose 'git aliases'
+open_github_pr
+clear
+cd ~
+clear
+curl ipinfo.io/ip
+clear
+Paintserver
+cd /Users/drucial/Dev/craftwork-rails/
+git push
+grep -R "alias gc" ~/
+clear
+git pull
+bin/dev
+git merge
+git checkout $(git_main_branch)
+git pull
+clear
+git checkout -b feature/cra-3178-make-projectcalendar-hover-tip-only-on-the-event-icon
+nvim
+nvimf
+nvim
+git commit --all --message
+git commit --all --message 'project calendar tooltip hover only on project type icon'
+git status
+git push --set-upstream origin $(git_current_branch)
+open https://github.com/craftworkco/craftwork-rails/pull/new/feature/cra-3178-make-projectcalendar-hover-tip-only-on-the-event-icon
+nvim
+clear
+git checkout -b feature/cra-3145-preserve-shifts-calendar-view-in-local-storage
+nvimf
+editaliases
+nvim ~/.config/zsh/aliases.zsh
+nvim $(fzf)
+\:clear
+clear
+git commit --all --message
+git commit --all --message 'persist shifts calendar state in local storage'
+git push --set-upstream origin $(git_current_branch)
+open https://github.com/craftworkco/craftwork-rails/pull/new/feature/cra-3145-preserve-shifts-calendar-view-in-local-storage
+git checkout $(git_main_branch)
+git pull
+git checkout -b feature/cra-2873-render-a-tags-as-links-in-comments-and-messages
+nvim $(fzf)
+rails c
+clear
+git status
+git restore app/components/message_component.html.erb
+git status
+exit
+clear
+git status
+git restore app/components/message_component.html.erb
+git status
+nvim $(fzf)
+clear
+git status
+git restore app/components/message_component.html.erb
+git status
+git checkout -- .
+git status
+clear
+nvim ~/.config/nvim
+npm install -g @prettier/plugin-ruby\
+
+clear
+nvim $(fzf)
+nvim ~/.config/nvim
+nvim
+nvim $(fzf)
+nvim $(fzf) messagecomponent
+nvim ~/.config/nvim
+nvim $(fzf)
+nvim ~/.config/nvim
+nvim $(fzf)
+gem mail
+gem 'mail'
+gem 'mail'\
+
+gem install mail -v 2.6.4
+bundle install
+bin/dev
+clear
+rails c
+nvim $(fzf)
+ditnvim
+nvim ~/.config/nvim
+nvim keymap to insert at beggining of none blank space line
+clear
+cd .config/nvim
+git status
+git commit --all --message 'start on documentation for nvim plugins'
+git push --set-upstream origin $(git_current_branch)
+clear
+nvim
+nvim lua/drucial/plugins/colorscheme.lua
+nvim
+clear
+nvim
+gst
+gcam 'all the git signs updates and some more documentation'
+gpsup
+\:q
+q
+\:q
+some new command
+\:q
+exit
+ls
+exit
+gst
+gA
+gaa
+gst
+gcam 'all the git signs updates and some more documentationi2'
+gpsup
+exit
+git
+nvim
+git status
+nvim
+nvim s
+nvim
+cd /Users/drucial/Dev/craftwork-rails/
+nvim
+cd /Users/drucial/Dev/craftwork-rails/
+nvim
+clear
+nvim
+clear
+nvim
+clear
+nvim
+nvim $(fzf)
+nvim
+clear
+nvim
+clear
+nvim
+clear
+cd .config/nvim
+nvim
+clear
+nvim
+nvim /Users/drucial/Library/Application Support/lazygit/config.yml
+nvim
+open /Users/drucial/Library/Application Support/lazygit/
+open /Users/drucial/Library
+nvim
+lazygit
+LazyGitConfig
+lazygitconfig
+lazygit
+clear
+open /Users/drucial/Library
+nvim
+lazygit
+lazygitconfig
+nvim
+clear
+nvim
+nvim /Users/drucial/Library/Application Support/lazygit/config.yml
+nvim /Users/drucial/Library/ApplicationSupport/lazygit/config.yml
+nvim
+lazygit
+nvim ~/.warp/themes/Celestial.yaml
+nvim
+lazygit
+nvim
+editaliases
+nvim ~/.config/zsh/aliases.zsh
+source ~/.config/zsh/.zshrc
+lg
+nvim
+clear
+nvim
+\:q
+nvim 
+nvim
+clear
+edit warp
+nvim ~/.warp/themes/Celestial.yaml
+clear
+nvim
+clear
+nvim $(fzf)
+clear
+cd ../zsh
+lg
+lazygit
+source ~/.config/zsh/.zshrc
+lg
+nvim ~/.config/zsh/.zshrc
+clear
+uninstall_oh_my_zsh
+nvim ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+clear
+brew install starship\
+
+nvim ~/.config/zsh/.zshrc
+clear
+source ~/.config/zsh/.zshrc
+starship preset pure-preset -o ~/.config/starship.toml
+clear
+cd ../
+ls
+nvim ~/.config/zsh/aliases.zsh
+source ~/.config/zsh/.zshrc
+editstarship
+source ~/.config/starship.toml
+source ~/.config/zsh/.zshrc
+clear
+source ~/.config/starship.toml
+editstarship
+starship preset nerd-font-symbols -o ~/.config/starship.toml
+clear
+source ~/.config/starship.toml
+ls
+source starship.toml
+cd nvim
+editstarship
+editstarship
+editstarship
+clear
+editstarship
+editstarship
+clear
+editstarship
+editstarship
+editstarship
+editstarship
+editstarship
+editstarship
+editstarship
+editstarship
+clear
+git status
+clear
+cd ../
+cd ../
+clear
+cd /Users/drucial/Dev/craftwork-rails/
+git status
+editstarship
+editstarship
+editstarship
+editstarship
+editstarship
+clear
+edit
+editstarship 
+icleari
+lazygit
+uu
+lazygit
+clear
+lazygit
+lear
+clear
+ciw
+cd ../
+clear
+cd ../../
+icleari
+cd ../
+cd ../
+cd ~
+ls
+cd /Users/drucial/Dev/craftwork/
+lazygit
+lazygit
+git checkout main
+clear
+git pull
+clear
+source starship.toml
+claer
+git stash clear
+cd /Users/drucial/Dev/craftwork-rails/
+git stash clear
+clear
+ lazygit
+clear
+craftwork
+cd /Users/drucial/Dev/craftwork/
+clear
+nvim
+claer
+clear
+cleasr
+clear
+Paintserver
+PaintServer
+bin/dev
+rails dump:db
+curl ipinfo.io/ip
+curl ipinfo.io/ip
+rails dump:db
+rails dump:db
+nvim
+clear
+bin/dev
+clear
+nvim $(fzf)
+nvim
+ nvim $(fzf)
+nvim $(fzf)
+ nvim $(fzf)
+nvim $(fzf)
+rails c
+clear
+rails c
+nvim $(fzf)
+nvim $(fzf)
+lazygit
+gcb
+git checkout -b bug/missing-accent-walls-on-interior-form
+nvim $(fzf)
+lazygit
+git checkout feature/cra-2873-render-a-tags-as-links-in-comments-and-messages 
+lazygit
+git checkout bug/missing-accent-walls-on-interior-form
+lazygit
+nvim $(fzf)
+lazygit
+lazygit
+git checkout feature/cra-2873-render-a-tags-as-links-in-comments-and-messages
+clear
+nvim
+nvim $(fzf)
+clear
+rails c
+clear
+rails c
+rails c
+nvim
+clear
+nvim $(fzf)
+nvim
+nvim $(fzf)
+nvim $(fzf)
+ nvim $(fzf)
+clear
+lazygit
+clear
+ nvim $(fzf)
+clear
+clear
+clear
+clear
+scripts
+cd ~/Scripts
+ls
+run move_screenshots.sh
+xcrun move_screenshots.sh
+ls -l your_script.sh\
+
+ls -l move_screenshot.sh\
+
+ls -l move_screenshot.sh\
+
+ls
+ls -l move_screenshot.sh
+ls -l move_screenshots.sh
+chmod +x move_screenshots.sh\
+
+ls -l move_screenshots.sh
+./move_screenshots.sh\
+
+ls
+ps aux | grep watch_screenshots.sh\
+
+chmod +x watch_screenshots.sh
+ps aux | grep watch_screenshots.sh
+osascript -e 'tell application "System Events" to get the name of every login item'\
+
+cd ../
+osascript -e 'tell application "System Events" to make new login item at end with properties {path:"/Scripts/watch_screenshots.sh", hidden:false}'\
+
+ln -s ~/Scripts/watch_screenshots.sh /usr/local/bin/watch_screenshots
+sudo ln -s ~/Scripts/watch_screenshots.sh /usr/local/bin/watch_screenshots
+osascript -e 'tell application "System Events" to make new login item at end with properties {path:"/usr/local/bin/watch_screenshots", hidden:false}'\
+
+nvim ~/.config/zsh/.zshrc
+clear
+source ~/.config/zsh/.zshrc
+source .config/zsh/.zshrc
+cd .config
+cd zsh
+ls
+source .zshrc
+open
+nvim
+source .zshrc
+nvim
+source .zshrc
+clear
+ps aux | grep watch_screenshots.sh\
+
+kill 3844\
+
+ps aux | grep watch_screenshots.sh
+\:wqa
+qa
+clear
+nvim .zshrc
+source .zshrc
+clear
+nvim .zshrc
+source .zshrc
+nvim
+clear
+nvim
+clear
+cd ~/Scripts
+touch set_terminal_tab_title.sh
+nvim set_terminal_tab_title.sh
+clear
+nvim ~/.config/zsh/.zshrc
+clear
+nvim ~/.config/zsh/.zshrc
+clear
+nvim
+cd ~/Scripts
+ls
+lazygit
+chmod +x set_terminal_tab_title.sh 
+clear
+source set_tab_title.sh\
+
+source set_terminal_tab_title.sh 
+nvim ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+clear
+nvim
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+cd /Users/drucial/Dev/craftwork-rails/
+source ~/.config/zsh/.zshrc
+clear
+PaintServer 
+cd ~/.config/nvim
+PaintServer 
+bin/dev
+rm ./.overmind.sock
+bin/dev
+nvim $(fzf)
+cd ~/tmp
+nvim /tmp/debug_tab_titles.log\
+
+nvim --headless +'echo expand("%:p")' +qall\
+
+nvim --headless +'echo expand("%:p")' +qall\
+
+nvim --headless +'echo expand("%:p")' +'sleep 1' +qall\
+i
+nvim --headless +'echo expand("%:p")' +'sleep 1' +qall
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+nvim /tmp/debug_tab_titles.log\
+
+cd /Users/drucial/Dev/craftwork-rails/
+bin/dev
+rm ./.overmind.sock
+bin/dev
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+clear
+source ~/.config/zsh/.zshrc
+clear
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+clear
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+PaintServer 
+rm ./.overmind.sock
+bin/dev
+source ~/.config/zsh/.zshrc
+nvim
+nvim ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+nvim
+nvim
+nvim ~/.config/zsh/.zshrc
+clear
+nvim ~/.config/zsh/.zshrc
+clear
+cd /Users/drucial/Dev/craftwork-rails/
+bin/dev
+rm ./.overmind.sock
+bin/dev
+nvim $(fzf)
+lazygit
+clear
+editstarship 
+nvim ~/.config/starship.toml
+clear
+editstarship 
+editstarship 
+editstarship 
+editstarship 
+editstarship 
+editstarship 
+editstarship 
+clear
+editstarship 
+editstarship 
+git status
+git status
+clear
+editstarship 
+editstarship 
+nvim ~/.config/starship.toml
+editstarship 
+editstarship 
+nvim ~/.config/starship.toml
+editstarship 
+editstarship 
+nvim ~/.config/starship.toml
+cd ~/
+cd /Users/drucial/Dev/craftwork-rails/
+cd ~/
+cd .config
+cd zsh
+editstarship 
+editstarship 
+editstarship 
+editstarship 
+nvim
+clear
+lazygit
+nvim ~/.config/zsh/.zshrc
+cd ~/Scripts
+nvim
+clear
+ps aux | grep 'script'\
+
+nvim
+ps aux | grep 'watch_screenshots.sh'\
+
+nvim
+nvim
+clear
+nvim ~/.config/zsh/.zshrc
+clear
+ps aux | grep 'watch_screenshots.sh'
+ls -l move_screenshots.sh
+cd Scripts
+ls -l move_screenshot.sh
+ls -l watch_screenshots.sh
+ps aux | grep 'watch_screenshots.sh'
+./move_screenshots.sh\
+
+./watch_screenshots.sh
+clear
+ps aux | grep 'watch_screenshots.sh'
+console
+nvim
+clear
+/bin/bash ; exit;

@@ -17,6 +17,8 @@ alias editalias='nvim ~/.config/zsh/aliases.zsh'
 alias edithyper='nvim ~/.hyper.js'
 alias editwarp='nvim ~/.warp/themes/Celestial.yaml'
 alias editgitconfig='nvim ~/.gitconfig'
+alias editstarship='nvim ~/.config/starship.toml'
+alias editloginplist='nvim ~/Library/LaunchAgents/com.scripts.loginscripts.plist'
 
 
 #-------------------
@@ -36,10 +38,13 @@ alias ff='nvim $(fzf)'
 alias lg='lazygit'
 alias gst='git status'
 alias gco='git checkout'
-alias gc='commit_tracked_with_message' # see git.zsh commit_tracked_with_message()
+alias gcom='git checkout main'
+alias gcob='git checkout -b'
+alias gcm='git commit -m' 
+alias gcam='git commit --all -m'  
 alias gb='git branch'
 alias ga='git add'
 alias gaa='git add --all'
-alias gp='git pull'
+alias gpo='git pull'
 alias gpsup='git push --set-upstream origin $(git_branch_name)'
-alias ghpr='open_github_pr' # see git.zsh open_github_pr()
+alias ghpr='open_github_pr' 
