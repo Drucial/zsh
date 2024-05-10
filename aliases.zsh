@@ -2,10 +2,10 @@
 # Directories
 #-------------------
 
-alias Dev='cd /Users/drucial/Dev'
-alias Scripts='cd ~/Scripts'
-alias PaintServer='cd /Users/drucial/Dev/craftwork-rails/'
-alias Craftwork='cd /Users/drucial/Dev/craftwork/'
+alias dev='cd /Users/drucial/Dev'
+alias scripts='cd ~/Scripts'
+alias paintserver='cd /Users/drucial/Dev/craftwork-rails/'
+alias craftwork='cd /Users/drucial/Dev/craftwork/'
 
 #-------------------
 # Files
