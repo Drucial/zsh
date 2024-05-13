@@ -35,7 +35,7 @@ alias ff='nvim $(fzf)'
 # Git
 #-------------------
 
-alias lg='lazygit'
+alias gg='lazygit'
 alias gst='git status'
 alias gco='git checkout'
 alias gcom='git checkout main'
