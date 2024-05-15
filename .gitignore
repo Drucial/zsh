@@ -3,3 +3,9 @@
 
 # Ignore specific .zcompdump file, replace special characters with wildcard or exact match
 .zcompdump*
+
+# Ignore global .zcompdump file
+.zcompdump
+
+# ingnore zsh_sessions
+.zsh_sessions
