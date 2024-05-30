@@ -15,14 +15,10 @@ alias hyperdirmic='cd /Users/drucial/Dev/hyperdirmic/'
 alias editzsh='nvim ~/.config/zsh/.zshrc'
 alias editnvim='nvim ~/.config/nvim'
 alias editalias='nvim ~/.config/zsh/aliases.zsh'
-alias edithyper='nvim ~/.hyper.js'
-alias editalacritty='nvim ~/.config/alacritty/alacritty.toml'
 alias editwarp='nvim ~/.warp/themes/Celestial.yaml'
 alias editgitconfig='nvim ~/.gitconfig'
 alias editstarship='nvim ~/.config/starship.toml'
-alias editloginplist='nvim ~/Library/LaunchAgents/com.scripts.loginscripts.plist'
 alias edittmux='nvim ~/.config/tmux/tmux.conf'
-
 
 #-------------------
 # Shortcuts
