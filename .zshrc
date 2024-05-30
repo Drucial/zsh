@@ -25,4 +25,12 @@ eval "$(starship init zsh)"
 # ---------------------------------------
 
 source ~/.config/zsh/git.zsh
-source ~/Scripts/set_terminal_tab_title.sh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Hyperdirmic utility commands
+alias organize='source ./scripts/venv/bin/activate && PYTHONPATH=./scripts python -m src.main'
+alias killhyperdirmic='pkill -f "python -m src.main"'
+alias loghyperdirmic='cat /tmp/com.drucial.hyperdirmic.out'
+alias errorhyperdirmic='cat /tmp/com.drucial.hyperdirmic.err'
+alias debughyperdirmic='cat /tmp/com.drucial.hyperdirmic.debug.log'
+alias allhyperdirmiclogs='cat /tmp/hyperdirmic.log /tmp/com.drucial.hyperdirmic.out /tmp/com.drucial.hyperdirmic.err /tmp/com.drucial.hyperdirmic.debug.log'

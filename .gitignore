@@ -8,4 +8,4 @@
 .zcompdump
 
 # ingnore zsh_sessions
-.zsh_sessions
+.zsh_sessions/
